@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';  //データベース名
-$dbname = 'bookmark_app';  //DBホスト
-$user = 'root'; // サクラサーバーユーザー名
-$pass = ''; // パスワード
+$host = 'gs-erik_bookmarkapp';  //データベース名
+$dbname = 'mysql80.gs-erik.sakura.ne.jp';  //DBホスト
+$user = 'gs-erik_bookmarkapp'; // サクラサーバーユーザー名
+$pass = 'gintoki555'; // パスワード
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

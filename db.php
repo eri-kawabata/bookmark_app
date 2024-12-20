@@ -1,6 +1,6 @@
 <?php
 $host = 'gs-erik_bookmarkapp';  //データベース名
-$dbname = 'mysql80.gs-erik.sakura.ne.jp';  //DBホスト
+$dbname = 'mysql3104.db.sakura.ne.jp';  //DBホスト
 $user = 'gs-erik_bookmarkapp'; // サクラサーバーユーザー名
 $pass = 'gintoki555'; // パスワード
 try {
